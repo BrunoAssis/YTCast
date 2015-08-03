@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+        xmlns:content="http://purl.org/rss/1.0/modules/content/"
+        xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:atom="http://www.w3.org/2005/Atom"
+        xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+        xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+        xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
+>
+
+<channel>
+        <title>Escriba Cafe</title>
+        <atom:link href="http://www.escribacafe.com/feed/podcast/" rel="self" type="application/rss+xml" />
+        <link>http://www.escribacafe.com</link>
+        <description>Podcast e artigos sobre a história do mundo e seus mistérios. Conheça sua história de uma forma emocionante e empolgante.</description>
+        <lastBuildDate>Thu, 07 May 2015 19:41:32 +0000</lastBuildDate>
+        <language>pt-BR</language>
+        <sy:updatePeriod>hourly</sy:updatePeriod>
+        <sy:updateFrequency>1</sy:updateFrequency>
+        <generator>http://wordpress.org/?v=4.2.2</generator>
+<!-- podcast_generator="Blubrry PowerPress/6.0.3" mode="advanced" -->
+        <itunes:new-feed-url>http://www.escribacafe.com/feed/podcast</itunes:new-feed-url>
+        <itunes:summary>Podcast sobre a história do mundo e seus mistérios. Conheça sua história de uma forma emocionante e empolgante.</itunes:summary>
+        <itunes:author>Christian Gurtner</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:image href="http://www.escribacafe.com/wp-content/uploads/capaescribacafe2048.jpg" />
+        <itunes:owner>
+                <itunes:name>Christian Gurtner</itunes:name>
+                <itunes:email>condado@lowenttur.com</itunes:email>
+        </itunes:owner>
+        <managingEditor>condado@lowenttur.com (Christian Gurtner)</managingEditor>
+        <copyright>2005-2014</copyright>
+        <itunes:subtitle>História do mundo e seus mistérios</itunes:subtitle>
+        <image>
+                <title>Escriba Cafe</title>
+                <url>http://www.escribacafe.com/wp-content/uploads/capaescribacafe2048.jpg</url>
+                <link>http://www.escribacafe.com</link>
+        </image>
+        <itunes:category text="Society &amp; Culture">
+                <itunes:category text="History" />
+        </itunes:category>
+        <item>
+                <title>Podcast IV &#8211; Mary Celeste</title>
+                <link>http://www.escribacafe.com/podcast-iv-mary-celeste/</link>
+                <comments>http://www.escribacafe.com/podcast-iv-mary-celeste/#comments</comments>
+                <pubDate>Fri, 01 May 2015 18:06:37 +0000</pubDate>
+                <dc:creator><![CDATA[Christian Gurtner]]></dc:creator>
+                                <category><![CDATA[PodCast]]></category>
+                <category><![CDATA[Dei Gratia]]></category>
+                <category><![CDATA[desaparecimento]]></category>
+                <category><![CDATA[Mary Celeste]]></category>
+                <category><![CDATA[mistério]]></category>
+                <category><![CDATA[Navio Fantasma]]></category>
+                <category><![CDATA[oceano]]></category>
+
+                <guid isPermaLink="false">http://www.escribacafe.com/?p=5299</guid>
+                <description><![CDATA[O mistério do navio que navegava sozinho.]]></description>
+                                <content:encoded><![CDATA[<p>O mistério do navio que navegava sozinho.</p>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F203469005&color=ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>
+]]></content:encoded>
+                        <wfw:commentRss>http://www.escribacafe.com/podcast-iv-mary-celeste/feed/</wfw:commentRss>
+                <slash:comments>13</slash:comments>
+<enclosure url="http://media.blubrry.com/escribacafe/escribacafe.com/wp-content/uploads/podcast/ec4.mp3" length="33236059" type="audio/mpeg" />
+                <itunes:subtitle>O mistério do navio que navegava sozinho.</itunes:subtitle>
+                <itunes:summary>O mistério do navio que navegava sozinho.</itunes:summary>
+                <itunes:author>Christian Gurtner</itunes:author>
+                <itunes:explicit>no</itunes:explicit>
+                <itunes:duration>26:56</itunes:duration>
+        </item>
+        <item>
+                <title>Writing as a Profession</title>
+                <link>http://54.207.49.74/</link>
+                <pubDate>Fri, 23 Jan 2015 16:49:55 +0000</pubDate>
+                <dc:creator><![CDATA[Christian Gurtner]]></dc:creator>
+                                <category><![CDATA[Videocast]]></category>
+                <category><![CDATA[guerra fria]]></category>
+                <category><![CDATA[mistério]]></category>
+                <category><![CDATA[rádio]]></category>
+                <category><![CDATA[Rússia]]></category>
+                <category><![CDATA[soviética]]></category>
+
+                <guid isPermaLink="false">http://54.207.49.74/</guid>
+                <description><![CDATA[Uma rádio misteriosa assombra a mesma frequência desde a guerra fria.]]></description>
+                <content:encoded><![CDATA[<p><iframe width="1170" height="658" src="http://www.youtube.com/embed/rudQtoA9B0E?feature=oembed&#038;wmode=opaque" frameborder="0" allowfullscreen></iframe></p>
+<p>Uma rádio misteriosa assombra a mesma frequência desde a guerra fria.</p>
+<description><![CDATA[Uma rádio misteriosa assombra a mesma frequência desde a guerra fria.]]></descriptio<content:encoded><![CDATA[<p><iframe width="1170" height="658" src="http://www.youtube.com/embed/rudQtoA9B0E?feature=oembed&#038;wmode=opaque" frameborder="0" allowfullscreen></iframe></p>
+<p>Uma rádio misteriosa assombra a mesma frequência desde a guerra fria.</p>
+]]></content:encoded>
+<enclosure url="http://54.207.49.74/videos/Writing%20as%20a%20profession-6XcfCEUXtiE.mp4" length="41469861" type="video/x-mp4" />
+                <itunes:subtitle>http://youtu.be/rudQtoA9B0E - Uma rádio misteriosa assombra a mesma frequência desde a guerra fria.</itunes:subtitle>
+                <itunes:summary>http://youtu.be/rudQtoA9B0E
+
+Uma rádio misteriosa assombra a mesma frequência desde a guerra fria.</itunes:summary>
+                <itunes:author>Christian Gurtner</itunes:author>
+                <itunes:explicit>no</itunes:explicit>
+                <itunes:duration>8:51</itunes:duration>
+        </item>
+        <item>
+                <title>RODA VIVA AECIO NEVES - LINK ONLY</title>
+                <link>http://54.207.49.74/</link>
+                <pubDate>Fri, 23 Jan 2015 16:49:55 +0000</pubDate>
+                <dc:creator><![CDATA[Christian Gurtner]]></dc:creator>
+                                <category><![CDATA[Videocast]]></category>
+                <category><![CDATA[guerra fria]]></category>
+                <category><![CDATA[mistério]]></category>
+                <category><![CDATA[rádio]]></category>
+                <category><![CDATA[Rússia]]></category>
+                <category><![CDATA[soviética]]></category>
+
+                <guid isPermaLink="false">http://54.207.49.74/</guid>
+                <description><![CDATA[Uma rádio misteriosa assombra a mesma frequência desde a guerra fria.]]></description>
+                <content:encoded><![CDATA[<p><iframe width="1170" height="658" src="http://www.youtube.com/embed/rudQtoA9B0E?feature=oembed&#038;wmode=opaque" frameborder="0" allowfullscreen></iframe></p>
+<p>Uma rádio misteriosa assombra a mesma frequência desde a guerra fria.</p>
+
+]]></content:encoded>
+<enclosure url="https://r5---sn-bg07dnls.googlevideo.com/videoplayback?ms=au&mt=1432527364&mv=m&requiressl=yes&ratebypass=yes&mm=31&fexp=9407575%2C9408142%2C9408254%2C9408710%2C9408787%2C9408939%2C9410605%2C9413058%2C9413131%2C9413503%2C9414852%2C9414855%2C9414869%2C9415165%2C9415304%2C948124%2C952612&mime=video%2Fmp4&pl=18&itag=22&upn=2cQyvee9MhA&signature=59DDFC624557F4BF13F55633A59F1E7F52D28DD0.CB6B57FD4C3ED6FF3FD3BB7355812843F2609D96&ipbits=0&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Cmime%2Cmm%2Cms%2Cmv%2Cpl%2Cratebypass%2Crequiressl%2Csource%2Cupn%2Cexpire&source=youtube&initcwndbps=19340000&id=o-ABtnLnH88h_3XCG_uBNDkAj86gL6wwoG0aJR5qCN9Y1B&sver=3&dur=1917.318&expire=1432549008&key=yt5&ip=54.94.138.75" length="41469861" type="video/x-mp4" />
+                <itunes:subtitle>http://youtu.be/rudQtoA9B0E - Uma rádio misteriosa assombra a mesma frequência desde a guerra fria.</itunes:subtitle>
+                <itunes:summary>http://youtu.be/rudQtoA9B0E
+
+Uma rádio misteriosa assombra a mesma frequência desde a guerra fria.</itunes:summary>
+                <itunes:author>Christian Gurtner</itunes:author>
+                <itunes:explicit>no</itunes:explicit>
+                <itunes:duration>8:51</itunes:duration>
+        </item>
+
+
+
+</channel>
+</rss>
