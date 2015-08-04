@@ -1,4 +1,35 @@
 <item>
+  <title><%= item.title %></title>
+        <link><%= "http://brunoassis.org/ "%></link>
+        <!-- <comments>http://www.escribacafe.com/podcast-iv-mary-celeste/#comments</comments> -->
+        <pubDate>Fri, 01 May 2015 18:06:37 +0000</pubDate>
+        <dc:creator><![CDATA[Bruno Assis]]></dc:creator>
+        <category><![CDATA[YTCast]]></category>
+        <category><![CDATA[Videocast]]></category>
+        <!-- <category><![CDATA[Dei Gratia]]></category>
+        <category><![CDATA[desaparecimento]]></category>
+        <category><![CDATA[Mary Celeste]]></category>
+        <category><![CDATA[mistério]]></category>
+        <category><![CDATA[Navio Fantasma]]></category>
+        <category><![CDATA[oceano]]></category> -->
+
+        <guid isPermaLink="false"><%= "http://brunoassis.org/id/123123 "%></guid>
+        <description><![CDATA[<%= item.description %>]]></description>
+        <content:encoded><![CDATA[<%= item.description %>]]></content:encoded>
+        <!-- <wfw:commentRss>http://www.escribacafe.com/podcast-iv-mary-celeste/feed/</wfw:commentRss>
+        <slash:comments>13</slash:comments> -->
+        <!-- <enclosure url="http://media.blubrry.com/escribacafe/escribacafe.com/wp-content/uploads/podcast/ec4.mp3" length="33236059" type="audio/mpeg" /> -->
+        <!-- <enclosure url="http://54.207.49.74/videos/Writing%20as%20a%20profession-6XcfCEUXtiE.mp4" length="41469861" type="video/x-mp4" /> -->
+        <!-- <enclosure url="https://r5---sn-bg07dnls.googlevideo.com/videoplayback?ms=au&mt=1432527364&mv=m&requiressl=yes&ratebypass=yes&mm=31&fexp=9407575%2C9408142%2C9408254%2C9408710%2C9408787%2C9408939%2C9410605%2C9413058%2C9413131%2C9413503%2C9414852%2C9414855%2C9414869%2C9415165%2C9415304%2C948124%2C952612&mime=video%2Fmp4&pl=18&itag=22&upn=2cQyvee9MhA&signature=59DDFC624557F4BF13F55633A59F1E7F52D28DD0.CB6B57FD4C3ED6FF3FD3BB7355812843F2609D96&ipbits=0&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Cmime%2Cmm%2Cms%2Cmv%2Cpl%2Cratebypass%2Crequiressl%2Csource%2Cupn%2Cexpire&source=youtube&initcwndbps=19340000&id=o-ABtnLnH88h_3XCG_uBNDkAj86gL6wwoG0aJR5qCN9Y1B&sver=3&dur=1917.318&expire=1432549008&key=yt5&ip=54.94.138.75" length="41469861" type="video/x-mp4" /> -->
+        <enclosure url="<%= item.video_url %>" length="<%= item.length_in_bytes %>" type="video/x-mp4" />
+        <itunes:subtitle>O mistério do navio que navegava sozinho.</itunes:subtitle>
+        <itunes:summary>O mistério do navio que navegava sozinho.</itunes:summary>
+        <itunes:author>Christian Gurtner</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:duration>26:56</itunes:duration>
+</item>
+
+<!-- <item>
     <guid isPermaLink='false'>tag:youtube.com,2008:playlist:<%= playlist_id %><%= ":PL45WUF-nVFtoEF9rgW8VHZCXZrmWUUCVfL6ux2GLGUUo" %></guid>
     <pubDate><%= "Sun, 08 Jun 2014 21:37:54 +0000" %></pubDate>
     <atom:updated><%= "1970-01-01T00:00:00.000Z" %></atom:updated>
@@ -22,4 +53,4 @@
     <yt:statistics favoriteCount='0' viewCount='938'/>
     <yt:rating numDislikes='1' numLikes='11'/>
     <yt:position>1</yt:position>
-</item>
+</item> -->
