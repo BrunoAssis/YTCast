@@ -1,4 +1,5 @@
 require 'sinatra'
+require 'ytcast'
 
 class YTCastApp < Sinatra::Base
   set :views, File.expand_path('../views', __FILE__)

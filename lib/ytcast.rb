@@ -1,8 +1,6 @@
 require "ytcast/version"
-require "sinatra"
-require "open-uri"
-require "open3"
-require "json"
+require "ytcast/ytfeed"
+require "ytcast/ytfeeditem"
 
 module YTCast
   module YTExtension
