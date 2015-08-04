@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:atom='http://www.w3.org/2005/Atom' xmlns:media='http://search.yahoo.com/mrss/' xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/' xmlns:gd='http://schemas.google.com/g/2005' xmlns:yt='http://gdata.youtube.com/schemas/2007' version='2.0'>
   <channel>
-    <atom:id>tag:youtube.com,2008:playlist: <%= playlist_id %></atom:id>
+    <atom:id>tag:youtube.com,2008:playlist: <%= feed.playlist_id %></atom:id>
     <lastBuildDate><%= "Wed, 11 Jun 2014 03:23:55 +0000" %></lastBuildDate>
     <title>YTCast RSS</title>
     <description>YTCast RSS Description</description>
     <image>
       <url>http://www.gstatic.com/youtube/img/logo.png</url>
       <title>YTCast RSS</title>
-      <link>http://www.youtube.com/playlist?list=<%= playlist_id %></link>
+      <link>http://www.youtube.com/playlist?list=<%= feed.playlist_id %></link>
     </image>
-    <link>http://www.youtube.com/playlist?list=<%= playlist_id %></link>
-    <atom:link rel='self' href='https://www.googleapis.com/youtube/v3/playlistItems?part=snippet,contentDetails&maxResults=50&playlistId=<%= playlist_id %>'/>
+    <link>http://www.youtube.com/playlist?list=<%= feed.playlist_id %></link>
+    <atom:link rel='self' href='https://www.googleapis.com/youtube/v3/playlistItems?part=snippet,contentDetails&maxResults=50&playlistId=<%= feed.playlist_id %>'/>
     <!--<managingEditor>
       <yt:userId><%= "tEIElie9FC-5YQP-Ty3POw" %></yt:userId>
       Bruno Assis
@@ -20,9 +20,9 @@
     <openSearch:totalResults><%= "8" %></openSearch:totalResults>
     <openSearch:startIndex><%= "1" %></openSearch:startIndex>
     <openSearch:itemsPerPage><%= "25" %></openSearch:itemsPerPage>
-    <yt:playlistId><%= playlist_id %></yt:playlistId>
-    <% feed["items"].each do |entry| %>
-      <%= erb :feed_item, locals: {item: entry, playlist_id: playlist_id} %>
+    <yt:playlistId><%= feed.playlist_id %></yt:playlistId>
+    <% feed.items.each do |item| %>
+      <%= erb :feed_item, locals: {item: item, playlist_id: feed.playlist_id} %>
     <% end %>
   </channel>
 </rss>

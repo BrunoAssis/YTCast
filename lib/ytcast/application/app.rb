@@ -15,9 +15,8 @@ class YTCastApp < Sinatra::Base
     #playlist_id = params[:playlist_id]
     playlist_id = "PLX4wzH6YPQH3x25S7U6zp56wTopd1YYEN"
     #https://www.googleapis.com/youtube/v3/playlistItems?part=snippet,contentDetails&maxResults=50&playlistId=PLX4wzH6YPQH3x25S7U6zp56wTopd1YYEN&key=AIzaSyC7HMqZfMnmMMYFNugV8iPnxaKAhSQqr9M
-    yt_feed = YTCast::YTFeed.new(playlist_id)
-    feed = yt_feed.get_JASON
-    erb :feed, locals: {feed: feed, playlist_id: playlist_id}
+    feed = YTFeed.new(playlist_id)
+    erb :feed, locals: {feed: feed}
   end
 end
 
