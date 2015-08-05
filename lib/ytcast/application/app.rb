@@ -10,11 +10,8 @@ class YTCastApp < Sinatra::Base
 
   get '/:playlist_id' do
     content_type :xml
-    #response.headers['Content-Type'] = 'application/rss+xml; charset=UTF-8'
-    #application/atom+xml
     #playlist_id = params[:playlist_id]
     playlist_id = "PLX4wzH6YPQH3x25S7U6zp56wTopd1YYEN"
-    #https://www.googleapis.com/youtube/v3/playlistItems?part=snippet,contentDetails&maxResults=50&playlistId=PLX4wzH6YPQH3x25S7U6zp56wTopd1YYEN&key=AIzaSyC7HMqZfMnmMMYFNugV8iPnxaKAhSQqr9M
     feed = YTFeed.new(playlist_id)
     erb :feed, locals: {feed: feed}
   end
