@@ -1,19 +1,16 @@
 <item>
   <title><%= item.title %></title>
   <link><%= "http://brunoassis.org/ "%></link>
-  <!-- <comments>http://www.escribacafe.com/podcast-iv-mary-celeste/#comments</comments> -->
   <pubDate>Fri, 01 May 2015 18:06:37 +0000</pubDate>
-  <dc:creator><![CDATA[Bruno Assis]]></dc:creator>
   <category><![CDATA[YTCast]]></category>
   <category><![CDATA[Videocast]]></category>
   <guid isPermaLink="false"><%= "http://brunoassis.org/id/123123 "%></guid>
   <description><![CDATA[<%= item.description %>]]></description>
-  <content:encoded><![CDATA[<%= item.description %>]]></content:encoded>
   <enclosure url="<%= item.video_url %>" length="0" type="video/mp4" />
   <itunes:subtitle>O mistério do navio que navegava sozinho.</itunes:subtitle>
   <itunes:summary>O mistério do navio que navegava sozinho.</itunes:summary>
   <itunes:author>Christian Gurtner</itunes:author>
   <itunes:explicit>no</itunes:explicit>
   <itunes:duration>26:56</itunes:duration>
-  <itunes:image href="<%= item.thumbnail %>" />
+  <itunes:image href="<%= item.thumbnail['url'] %>" />
 </item>
