@@ -2,6 +2,7 @@ require 'sinatra'
 require 'ytcast'
 
 class YTCastApp < Sinatra::Base
+  set :bind, '0.0.0.0'
   set :views, File.expand_path('../views', __FILE__)
 
   get '/' do
